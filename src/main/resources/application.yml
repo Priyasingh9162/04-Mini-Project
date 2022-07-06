@@ -1,0 +1,14 @@
+server:
+  port: 7777
+spring:
+  datasource:
+    #driver-class-name: org.h2.Driver  
+    password: 12345678
+    url: jdbc:mysql://mini-pro-01.cmno9301dhgh.ap-south-1.rds.amazonaws.com/jrtp 
+    username: root
+ 
+    
+  jpa:
+   # database-platform: org.hibernate.dialect.H2Dialect  
+    hibernate:      ddl-auto: update
+  
